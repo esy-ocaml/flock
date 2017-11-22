@@ -1,0 +1,20 @@
+{
+  "name": "@esy-ocaml/flock",
+  "version": "0.2.3",
+  "description": "flock",
+  "main": "index.js",
+  "bin": {
+    "flock": "flock"
+  },
+  "scripts": {
+    "postinstall": "./configure && make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esy-ocaml/flock.git"
+  },
+  "keywords": [
+    "flock"
+  ],
+  "license": "ISC"
+}
