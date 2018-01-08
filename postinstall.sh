@@ -3,6 +3,7 @@
 _do () {
   set -e
   set -o pipefail
+  touch Makefile.am aclocal.m4 configure Makefile.in
   ./configure
   make
 }
