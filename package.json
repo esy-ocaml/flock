@@ -7,7 +7,7 @@
     "flock": "flock"
   },
   "scripts": {
-    "postinstall": "./configure && make"
+    "postinstall": "bash ./postinstall.sh"
   },
   "repository": {
     "type": "git",
