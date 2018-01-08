@@ -1,6 +1,6 @@
 {
   "name": "@esy-ocaml/flock",
-  "version": "0.2.3000",
+  "version": "0.2.3001",
   "description": "flock",
   "main": "index.js",
   "bin": {
